@@ -45,12 +45,12 @@ A secure, full-stack **Online Voting Web Application** developed using **PHP**, 
 > Upload screenshots to a `/screenshots/` folder and embed them like below.
 
 <p float="left">
-  <img src="[screenshots/login.png](https://github.com/chirag31045/Voting/blob/02669522f90dfaece1e25b606174855a97b0ba41/Screenshot%20(535).png)" width="32%" />
-  <img src="[screenshots/vote.png](https://github.com/chirag31045/Voting/blob/02669522f90dfaece1e25b606174855a97b0ba41/Screenshot%20(534).png)" width="32%" />
-  <img src="[screenshots/admin-dashboard.png](https://github.com/chirag31045/Voting/blob/02669522f90dfaece1e25b606174855a97b0ba41/Screenshot%20(539).png)" width="32%" />
-  <img src="[screenshots/results.png](https://github.com/chirag31045/Voting/blob/02669522f90dfaece1e25b606174855a97b0ba41/Screenshot%20(540).png)" width="32%" />
-  <img src="[screenshots/results.png](https://github.com/chirag31045/Voting/blob/02669522f90dfaece1e25b606174855a97b0ba41/Screenshot%20(541).png)" width="32%" />
-  <img src="[screenshots/results.png](https://github.com/chirag31045/Voting/blob/02669522f90dfaece1e25b606174855a97b0ba41/Screenshot%20(542).png)" width="32%" />
+  <img src="https://github.com/chirag31045/Voting/blob/6cce4e8ea9b7ca5246c83bcfebd667152fb91f65/Screenshot%20(535).png" width="32%" />
+  <img src="https://github.com/chirag31045/FinalProjectIPLTeamManagement/blob/2630b4084ae72ede8841358f5f0f17f17ab1217e/Screenshot%20(657).png" width="32%" />
+  <img src="https://github.com/chirag31045/FinalProjectIPLTeamManagement/blob/2630b4084ae72ede8841358f5f0f17f17ab1217e/Screenshot%20(658).png" width="32%" />
+  <img src="https://github.com/chirag31045/FinalProjectIPLTeamManagement/blob/2630b4084ae72ede8841358f5f0f17f17ab1217e/Screenshot%20(660).png" width="32%" />
+  <img src="https://github.com/chirag31045/FinalProjectIPLTeamManagement/blob/2630b4084ae72ede8841358f5f0f17f17ab1217e/Screenshot%20(656).png" width="32%" />
+  <img src="https://github.com/chirag31045/FinalProjectIPLTeamManagement/blob/2630b4084ae72ede8841358f5f0f17f17ab1217e/Screenshot%20(655).png" width="32%" />
 </p>
 
 ---

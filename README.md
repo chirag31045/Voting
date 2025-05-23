@@ -1,95 +1,58 @@
-🗳️ Online Voting System
-A secure, web-based voting platform built with PHP, MySQL, and JavaScript. This system allows users to register, login, cast a single vote, and view real-time election results. Admins can manage users and candidates from a dedicated dashboard.
+# 🗳️ Online Voting System
 
-✅ Features
-👤 User registration and login system
+A secure, full-stack **Online Voting Web Application** developed using **PHP**, **MySQL**, **JavaScript**, and **HTML/CSS**. This system enables users to **register, log in, and cast a single vote**, while admins can **manage users and candidates** and view **real-time election results** — all from a user-friendly interface.
 
-🗳️ One vote per authenticated user
+---
 
-🔐 Secure session handling
+## 🚀 Features
 
-🛠️ Admin panel to:
+### 👥 User Module
+- ✅ User registration with unique credentials  
+- 🔐 Secure login with session management  
+- 🗳️ One vote per user (prevent double voting)  
 
-Add/edit/delete voters and candidates
+### 🗳️ Voting Module
+- 📋 View list of candidates  
+- 🗳️ Vote only once per election cycle  
+- ⏱️ Live vote count (real-time display)  
 
-View voting results
+### 🛠️ Admin Panel
+- ➕ Add/edit/delete voters and candidates  
+- 📊 Monitor total votes per candidate  
+- 🔍 Search/filter user and candidate lists  
 
-📊 Real-time vote count display
+### 🌐 Frontend UI/UX
+- ✅ Responsive UI using **HTML5**, **CSS3**, and **JavaScript**  
+- 🧩 Form validation and user-friendly interactions  
+- 🎨 Clean layout and intuitive dashboard  
 
-🧰 Technologies Used
-Layer	Technology
-Frontend	HTML, CSS, JavaScript
-Backend	PHP
-Database	MySQL
-Server	Apache (via XAMPP)
+---
 
-🚀 Setup Instructions
-Clone the repository
+## 🧰 Tech Stack
 
-bash
-Copy
-Edit
-git clone https://github.com/your-username/online-voting-system.git
-Import the Database
+| Layer          | Technology                 |
+|----------------|-----------------------------|
+| **Frontend**   | HTML5, CSS3, JavaScript      |
+| **Backend**    | PHP                          |
+| **Database**   | MySQL                        |
+| **Server**     | Apache via XAMPP             |
+| **Tools**      | phpMyAdmin, VS Code, Git     |
 
-Open phpMyAdmin via http://localhost/phpmyadmin
+---
 
-Create a new database (e.g. voting_system)
+## 📷 Screenshots
 
-Import the SQL file:
+> Upload screenshots to a `/screenshots/` folder and embed them like below.
 
-pgsql
-Copy
-Edit
-/sql/database_schema.sql
-Start Apache and MySQL via XAMPP
+<p float="left">
+  <img src="[screenshots/login.png](https://github.com/chirag31045/Voting/blob/02669522f90dfaece1e25b606174855a97b0ba41/Screenshot%20(535).png)" width="32%" />
+  <img src="[screenshots/vote.png](https://github.com/chirag31045/Voting/blob/02669522f90dfaece1e25b606174855a97b0ba41/Screenshot%20(534).png)" width="32%" />
+  <img src="[screenshots/admin-dashboard.png](https://github.com/chirag31045/Voting/blob/02669522f90dfaece1e25b606174855a97b0ba41/Screenshot%20(539).png)" width="32%" />
+  <img src="[screenshots/results.png](https://github.com/chirag31045/Voting/blob/02669522f90dfaece1e25b606174855a97b0ba41/Screenshot%20(540).png)" width="32%" />
+  <img src="[screenshots/results.png](https://github.com/chirag31045/Voting/blob/02669522f90dfaece1e25b606174855a97b0ba41/Screenshot%20(541).png)" width="32%" />
+  <img src="[screenshots/results.png](https://github.com/chirag31045/Voting/blob/02669522f90dfaece1e25b606174855a97b0ba41/Screenshot%20(542).png)" width="32%" />
+</p>
 
-Run the project
+---
 
-Place the project folder inside htdocs (e.g. C:/xampp/htdocs/online-voting-system)
-
-Open in browser:
-
-perl
-Copy
-Edit
-http://localhost/online-voting-system/
-📸 Screenshots
-🔽 Add screenshots to showcase:
-
-Registration/Login Page
-
-Voting Interface
-
-Admin Dashboard
-
-Real-time Results Page
-
-Upload images to your /screenshots/ folder and embed them in your README using:
-
-markdown
-Copy
-Edit
-![Login Page](screenshots/login.png)
-![Voting Page](screenshots/vote.png)
-![Admin Panel](screenshots/admin-dashboard.png)
-📂 Folder Structure (Optional)
-pgsql
-Copy
-Edit
-online-voting-system/
-├── admin/
-├── assets/
-├── includes/
-├── sql/
-│   └── database_schema.sql
-├── index.php
-├── login.php
-├── vote.php
-└── README.md
-🔒 Security Notes
-Ensure proper input validation and session handling
-
-Use HTTPS in production
-
-Consider reCAPTCHA for preventing bot registrations
+## 🧩 Project Structure
